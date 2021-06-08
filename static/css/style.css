@@ -1,0 +1,37 @@
+body {
+    background-color: #521CB1;
+}
+
+.box {
+    background: #fff;
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.title {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.information .header {
+    display: inline-block;
+    font-weight: bold;
+    color: #373838;
+    width: 30%;
+}
+
+.information .data {
+    color: #373838;
+    float: right;
+    width: 40%;
+    margin-right: 40px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-top: 40px;
+}

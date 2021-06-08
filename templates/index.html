@@ -1,0 +1,23 @@
+$def with (humidity, temperature)
+$var cssfiles: templates/style.css
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1 class="title">Plant Cabinet</h1>
+            <div class="information">
+                <span class="data">$humidity</span>
+                <span class="header">Relative humidity:</span>
+            </div>  
+            <div class="information">
+                <span class="data">$temperature</span>
+                <span class="header">Temperature:</span>
+            </div>
+            <img class="graph" src='/static/humidity_graph.png' alt="Graph of humidity">
+        </div>
+    </body>
+</html>
